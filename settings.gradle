@@ -1,0 +1,6 @@
+rootProject.name = 'multi-tenant-ms'
+
+include 'shared:common-utils'
+include 'services:user-service'
+include 'services:auth-service'
+include 'services:product-service'
