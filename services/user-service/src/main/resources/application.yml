@@ -1,0 +1,14 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/user-service
+  application:
+    name: user-service
+
+server:
+  port: 8081
+
+jwt:
+  secret: mySuperSecretJwtKey
+  expiration: 86400000
+

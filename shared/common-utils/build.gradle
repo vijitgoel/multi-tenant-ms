@@ -1,7 +1,11 @@
 plugins {
     id 'java-library'
 }
+dependencies {
+    // You can add shared dependencies like Lombok, MapStruct here
+}
 
 java {
     sourceCompatibility = JavaVersion.VERSION_17
+    targetCompatibility = JavaVersion.VERSION_17
 }
